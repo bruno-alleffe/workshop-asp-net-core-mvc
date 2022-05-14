@@ -13,8 +13,9 @@ namespace BrunoWebMvc.Controllers {
         }
 
         public IActionResult About() {
-            ViewData["Message"] = "Your application description page.";
-
+            ViewData["Message"] = "Bruno Alleffe Web MVC App from C# Course.";
+            ViewData["Email"] = "bruno16alleffe@gmail.com";
+            
             return View();
         }
 
